@@ -1,0 +1,79 @@
+/* DEBUGGING===================== */
+/* * {
+    border: 1px solid red;
+} */
+
+:root {
+    --main-color-pink: fuchsia;
+}
+
+/* BASE STYLE=================== */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+   }
+a {
+    text-decoration: none;
+    }
+
+
+/* NAVBAR======================== */
+
+header nav {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+header nav .nav-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+header .nav-menu li {
+    padding: 10px;
+    background-color:var(--main-color-pink);
+}
+
+header .nav-menu li:last-child {
+    background-color: fuchsia;
+}
+
+header .nav-menu li:last-child a {
+    color: white;
+}
+
+header .nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+header .nav-menu a:hover {
+    color: fuchsia;
+}
+
+/* BANNER */
+.banner {
+    background-color: hotpink;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .banner-detail {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    display: block;
+    text-align: center;
+    background-color: var(--main-color-pink);
+}
